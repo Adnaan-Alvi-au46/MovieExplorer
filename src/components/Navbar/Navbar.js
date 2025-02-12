@@ -8,7 +8,9 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1 className="logo">Movie Hub</h1>
+      <h1 className="logo">
+        <Link to="/">Movie Hub</Link>
+      </h1>
       <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/favorites">Favorites</Link>

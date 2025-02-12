@@ -12,7 +12,6 @@ function FavoriteMovies() {
   };
 
   return (
-    <div className="wrapper">
       <div className="favorites-container">
         <h2 className="favorites-title">Favorite Movies</h2>
         {favorites.length === 0 ? (
@@ -40,7 +39,6 @@ function FavoriteMovies() {
           </div>
         )}
       </div>
-    </div>
   );
 }
 

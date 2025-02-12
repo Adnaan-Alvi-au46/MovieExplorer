@@ -8,7 +8,7 @@
   font-size: 18px;
 }
 
-.navbar .logo {
+.navbar .logo a {
   font-size: 1.8rem;
   font-weight: bold;
   color: #ff9800;

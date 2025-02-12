@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "./MovieDetails.css";
 import useApi from "../../config/useApi";
 import { useGeneralStore } from "../../store/useGeneralStore";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import Loader from "../../components/Loader/Loader";
+import "./MovieDetails.css";
 
 function MovieDetails() {
   const { id } = useParams();
