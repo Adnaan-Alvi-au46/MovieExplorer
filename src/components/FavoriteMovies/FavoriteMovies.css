@@ -1,0 +1,70 @@
+.favorites-container {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.favorites-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.no-favorites {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+.movie-list-fav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-card-fav {
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(255, 165, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.movie-card-fav:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.remove-btn {
+  background-color: #ff4444;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.remove-btn:hover {
+  background-color: #cc0000;
+}
